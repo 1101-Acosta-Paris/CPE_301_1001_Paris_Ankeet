@@ -115,7 +115,18 @@ void setup() {
 }
 
 void loop() {
-
+    if(Current = disabled){
+        d_state();
+    }
+    else if(Current = idle){
+        i_state();
+    }
+    else if(Current = error){
+        e_state();
+    }
+    else if(Current = running){
+        r_state();
+    }
 }
 
 
